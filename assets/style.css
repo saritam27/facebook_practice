@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #f1f2f5;
+    padding: 0px; margin: 0px;
+}
+
+.title{
+    color:#0766ff;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.sub-title{
+    width: 500px;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.wrapper{
+    margin-top: 100px;
+    height: 450px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper > .left{
+    padding-right: 50px;
+}
+
+.card{
+    padding: 20px;
+    margin: 40px 0 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 396px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.text-control{
+    font-size: 17px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    border: 1px solid #dedfe2;
+    width: 362px;
+}
+
+.link{
+    color:#0866ff;
+    text-decoration: none;
+}
+
+.link:hover{
+    color:#0866ff;
+    text-decoration: underline;
+}
+
+.link-group{
+    text-align: center;
+    padding: 16px 0px;
+}
+
+.login_button{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    padding: 16px 0px;
+    background-color: #0866ff;
+}
+
+.divider{
+    border: .8px solid #dedfe2;
+    margin-bottom: 20px;
+}
+
+.create_button{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 10px;
+    background-color: #42b72a;
+}
+
+.create_page:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    background-color: white;
+    height: 300px;
+}
+
+.footer-content{
+    width: 900px;
+}
+
+.language {
+    list-style: none;
+    display: flex;
+}
+
+.language > li {
+    margin-right: 10px;
+}
+.language > li > a {
+    color: grey;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.language > li > a:hover {
+    text-decoration: underline;
+}
+
+.copyright{ color: grey; font-size: 13px;}
